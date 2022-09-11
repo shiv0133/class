@@ -1,6 +1,6 @@
 package methods;
 
-public class employee {
+public class Employee {
     // work, eat sleep
 
     public void work(){
@@ -14,7 +14,7 @@ public class employee {
     }
 
     public static void main(String[] args) {
-        employee obj = new employee();
+        Employee obj = new Employee();
         obj.work();
         obj.eat();
         obj.sleep();
