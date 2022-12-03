@@ -3,9 +3,11 @@ package methods;
 public class InputParameter {
 
     public void hello(String Name){
+
         System.out.println("welcome to java :" +Name);
     }
     public void makeSquare(int Number){
+
         System.out.println("Square of number :" +Number*Number);
     }
     public void voting(int age){

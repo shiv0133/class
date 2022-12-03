@@ -4,7 +4,7 @@ public class ReturnType {
     // return type
     public String hello(String name){
         String message = "welcome to java " +name;
-        //System.out.println(message);
+        System.out.println(message);
         return  message;
     }
     public int makeSquare(int number){
